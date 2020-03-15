@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    list-style: none;
+    border: 1px solid #c0c0c0;
+    float: right;
+    margin: 15px;
+    margin-right: 50px;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid #c0c0c0;
+}
+
+.menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu li a:hover {
+    background: #333;
+    color: #fff;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: aquamarine;
+}
+
+p {
+    color: white;
+    border: 2;
+}
+
+.img_estilos {
+    width: 250px;
+    height: 200px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+/* Sustentabildiade Estilos */
+
+div.sustentabilidade {
+    padding: 50px;
+    background-image: url(../img/empreender-com-sustentabilidade.jpg);
+}
+
+.conteudo {
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 100px 50px;
+    height: 450px;
+}
+
+.sustenta_cabeça {
+    color: white;
+    text-align: center;
+}
+
+.texto_sustenta {
+    text-align: center;
+}
+
+.citacao {
+    color: aqua;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+/* FIm */
+
+
+/* Lixo Eletronico Estilos*/
+
+.lxeletronico_cabeça {
+    color: white;
+    text-align: center;
+}
+
+div.bdlixoeletronico_oquee {
+    padding: 50px;
+    background-image: url(../img/lixo_eletronico.jpg);
+}
+
+.texto_lxeletronico {
+    text-align: center;
+}
+
+.conteudo_lixo {
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 100px 50px;
+    height: 450px;
+}
+
+.link_lixo {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/*FIM */
+
+
+/*Reciclagem estilos*/
+
+div.reciclagem {
+    padding: 50px;
+    background-image: url(../img/recicla.jpg);
+}
+
+.conteudo_reciclagem {
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 100px 50px;
+    height: 450px;
+}
+
+.reciclagem_cabeça {
+    color: white;
+    text-align: center;
+}
+
+.texto_reciclagemo {
+    text-align: center;
+}
+
+
+/*FIM*/
+
+
+/*Ação estilos*/
+
+div.acoes {
+    padding: 50px;
+    background-image: url(../img/recicla2.jpg);
+}
+
+.conteudo_acoes {
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 100px 50px;
+    height: 900px;
+}
+
+.acoes_cabeça {
+    color: white;
+    text-align: center;
+}
+
+.texto_acoes {
+    text-align: center;
+    font-size: 15px;
+}
+
+.listagem_acoes {
+    list-style-type: none;
+    text-align: center;
+}
+
+.listagem_acoes_cabeça {
+    font-size: 38px;
+}
+
+
+/*FIM*/
