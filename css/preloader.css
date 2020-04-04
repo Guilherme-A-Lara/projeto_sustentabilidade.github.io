@@ -1,0 +1,45 @@
+.preloader {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.1s ease;
+}
+.preloader > img {
+  width: 150px;
+  transition: all 0s ease;
+}
+
+.preloader.hidden {
+  animation: fadeOut 2s;
+  animation-fill-mode: forwards;
+}
+
+.text {
+  width: 100%;
+  height: 100vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  line-height: 650px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  color: white;
+  --webkit-background-clip: text;
+  pointer-events: none;
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 100%;
+    visibility: hidden;
+  }
+}

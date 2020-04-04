@@ -1,180 +1,192 @@
+@import "./gap.css";
 * {
-    margin: 0;
-    padding: 0;
+  font-family: "Roboto", sans-serif !important;
+}
+.card-title {
+  padding-top: 20px;
+}
+#sustenta {
+  font-family: "Pacifico", cursive !important;
+  margin: 2px;
+  padding: 2px;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: lightgray;
+}
+.box {
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: silver;
+  width: calc(
+    (100% / 3) - 2rem
+  ); /* calco para descontar a margem da largura do box se aumenta a marge tem que ajustar aqui tb */
+}
+#citacao {
+  font-family: cursive;
+  font-size: 24px;
+  color: blue;
+  text-decoration: linen;
 }
 
-.menu {
-    list-style: none;
-    border: 1px solid #c0c0c0;
-    float: right;
-    margin: 15px;
-    margin-right: 50px;
+#bg-nav {
+  background-color: lightgreen !important;
 }
 
-.menu li {
-    position: relative;
-    float: left;
-    border-right: 1px solid #c0c0c0;
+#jumbotron {
+  background-color: lightsteelblue !important;
+}
+#logo-sustenta {
+  width: 75px;
+  height: 75px;
+}
+#navbarSupportedContent {
+  letter-spacing: 1px;
+  margin: 5px;
+  font-size: 26px;
+}
+#navbarSupportedContent a:hover {
+  color: black;
+}
+#carousel-text h1 p {
+  color: black;
+}
+.progress {
+  color: black;
 }
 
-.menu li a {
-    color: #333;
-    text-decoration: none;
-    padding: 5px 10px;
-    display: block;
+.container {
+  padding-bottom: var(--gap-small);
+  margin: var(--gap-small);
 }
 
-.menu li a:hover {
-    background: #333;
-    color: #fff;
-    text-shadow: 0px 0px 5px #fff;
+#estudo {
+  font-size: 72px;
+  color: yellowgreen;
 }
 
-.menu ul {
-    list-style-type: none;
+#botao-estudo {
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+  position: relative;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    background-color: grey;
+#botao-estudo a {
+  text-decoration: none;
+  color: #fff;
 }
 
+#botao-estudo:hover {
+  background-color: #4caf50; /* Green */
+}
+
+#news {
+  text-align: center;
+  background-color: lightsteelblue;
+  padding: var(--gap-small);
+}
+#news a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#logo {
+  height: 300.35px;
+}
+#card-body {
+  background-color: gainsboro !important;
+}
+#card-padding {
+  padding: var(--gap-small);
+}
+#btn:hover {
+  background-color: #4caf50; /* Green */
+}
+
+#cards {
+  padding: var(--gap-small);
+}
+
+#video {
+  align-content: center;
+  margin-top: 50px;
+}
+#gif-footer {
+  width: 100%;
+}
+
+.card-sobre {
+  padding: 0;
+  margin: 0;
+}
+
+#card-title {
+  font-size: 48px !important;
+  color: lightgreen;
+}
+
+#card-title img {
+  width: 75px;
+  height: 75px;
+}
+#p-card-title {
+  font-size: 24px !important;
+  color: aliceblue;
+}
+
+#p-card-title b {
+  font-size: 22px !important;
+  color: aqua;
+}
+
+#jumbotron-ajuda {
+  background-color: white !important;
+  margin: 10px;
+}
+
+#jumbotron-ajuda h1 {
+  color: lightgreen !important;
+  text-align: center;
+}
+
+#jumbotron-ajuda p {
+  justify-content: center;
+  text-align: center;
+  color: black !important;
+  font-size: 32px;
+}
+
+.title-card h1,
 p {
-    color: white;
-    border: 2;
+  justify-content: center;
+
+  text-align: center;
+}
+.title-card {
+  background-color: lightgrey;
 }
 
-.img_estilos {
-    width: 250px;
-    height: 200px;
-    border-width: 10px;
-    border-style: solid;
-    border-color: black;
+.title-card p {
+  font-size: 26px;
+  padding: 20px;
+  margin: 20px;
 }
-
-
-/* Sustentabildiade Estilos */
-
-div.sustentabilidade {
-    padding: 50px;
-    background-image: url(../img/empreender-com-sustentabilidade.jpg);
+#acoes h5 {
+  justify-content: center;
+  font-size: 48px;
+  text-align: center;
 }
-
-.conteudo {
-    background-color: rgb(0, 0, 0, 0.6);
-    padding: 100px 50px;
-    height: 450px;
+#acoes li {
+  justify-content: center;
+  font-size: 36px;
+  text-align: center;
+  color: #4caf50;
 }
-
-.sustenta_cabeça {
-    color: white;
-    text-align: center;
+#span {
+  color: blue;
 }
-
-.texto_sustenta {
-    text-align: center;
-}
-
-.citacao {
-    color: aqua;
-    font-size: 18px;
-    font-style: italic;
-}
-
-
-/* FIm */
-
-
-/* Lixo Eletronico Estilos*/
-
-.lxeletronico_cabeça {
-    color: white;
-    text-align: center;
-}
-
-div.bdlixoeletronico_oquee {
-    padding: 50px;
-    background-image: url(../img/lixo_eletronico.jpg);
-}
-
-.texto_lxeletronico {
-    text-align: center;
-}
-
-.conteudo_lixo {
-    background-color: rgb(0, 0, 0, 0.6);
-    padding: 100px 50px;
-    height: 450px;
-}
-
-.link_lixo {
-    color: #333;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-
-/*FIM */
-
-
-/*Reciclagem estilos*/
-
-div.reciclagem {
-    padding: 50px;
-    background-image: url(../img/recicla.jpg);
-}
-
-.conteudo_reciclagem {
-    background-color: rgb(0, 0, 0, 0.6);
-    padding: 100px 50px;
-    height: 450px;
-}
-
-.reciclagem_cabeça {
-    color: white;
-    text-align: center;
-}
-
-.texto_reciclagemo {
-    text-align: center;
-}
-
-
-/*FIM*/
-
-
-/*Ação estilos*/
-
-div.acoes {
-    padding: 50px;
-    background-image: url(../img/recicla2.jpg);
-}
-
-.conteudo_acoes {
-    background-color: rgb(0, 0, 0, 0.6);
-    padding: 100px 50px;
-    height: 900px;
-}
-
-.acoes_cabeça {
-    color: white;
-    text-align: center;
-}
-
-.texto_acoes {
-    text-align: center;
-    font-size: 15px;
-}
-
-.listagem_acoes {
-    list-style-type: none;
-    text-align: center;
-}
-
-.listagem_acoes_cabeça {
-    font-size: 38px;
-}
-
-
-/*FIM*/
